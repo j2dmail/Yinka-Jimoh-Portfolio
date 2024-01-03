@@ -287,6 +287,23 @@ height: 2px;
     gap: 3rem;
     font-size: 3rem
   }
+
+  @media (min-width: 550px) {
+    article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .text {
+        order: 2;
+        text-align: right;
+    }
+
+    #project ul{
+        justify-content: flex-end;
+    }
+  }
   
 
   
